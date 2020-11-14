@@ -1,0 +1,37 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "extends": ["airbnb-base"],
+  "plugins": ["unicorn"],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "unicorn/filename-case": [
+      "error",
+      {
+        "case": "kebabCase"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.spec.js"],
+      "env": {
+        "mocha": true
+      }
+    }
+  ],
+  "globals": {
+    "chai": true
+  },
+  "import/resolver": {
+    "babel-module": {
+      "@app": ["./app"]
+    }
+  }
+}
