@@ -27,7 +27,8 @@
     }
   ],
   "globals": {
-    "chai": true
+    "chai": true,
+    "expect": true
   },
   "import/resolver": {
     "babel-module": {
