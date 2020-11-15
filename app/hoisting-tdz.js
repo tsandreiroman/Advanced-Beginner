@@ -34,10 +34,3 @@ export const letHoisting = () => {
   
  return myLet;
 };
-
-export default {
-  functionDeclarationHoisting,
-  functionExpressionHoisting,
-  varHoisting,
-  letHoisting
-};

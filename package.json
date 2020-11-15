@@ -11,10 +11,8 @@
   },
   "private": true,
   "scripts": {
-    "start": "node index.js",
     "test": "mocha",
-    "lint": "eslint --quiet tests/app app",
-    "lint-warn": "eslint tests/app app"
+    "transpile": "babel ./app/hello-world.js --out-file ./app/hello-world-transpiled.js"
   },
   "dependencies": {
     "sinon": "^1.14.1"

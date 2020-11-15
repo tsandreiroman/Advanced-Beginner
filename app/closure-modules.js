@@ -24,9 +24,3 @@ export const timeLogger = (date) => ({
   day: date.getDate(),
   logTime: function() { return `Today is ${this.day}.${this.month}.${this.year}`}
 });
-
-export default {
-  charLoggerWithVar,
-  charLoggerWithLet,
-  timeLogger,
-}
