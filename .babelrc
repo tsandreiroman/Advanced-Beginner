@@ -15,7 +15,8 @@
       {
         "root": ["."],
         "alias": {
-          "@app": "./app"
+          "@app": "./app",
+          "@mocks": "./mocks"
         }
       }
     ]

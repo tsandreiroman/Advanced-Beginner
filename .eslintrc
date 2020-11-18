@@ -30,7 +30,8 @@
   },
   "import/resolver": {
     "babel-module": {
-      "@app": ["./app"]
+      "@app": ["./app"],
+      "@mocks": ["./mocks"]
     }
   }
 }
