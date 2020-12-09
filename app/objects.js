@@ -36,7 +36,7 @@ const mapByDepartment = (department, totalSalariesAmount) => department.map((emp
 }));
 
 export const addSpecificFieldsToEmployee = (personal) => {
-  let departmentsAndEmployees = Object.entries(personal);
+  const departmentsAndEmployees = Object.entries(personal);
   const totalSalariesAmount = calculateTotalSalariesAmount(
     calculateTotalPerDepartments(personal)
   );
